@@ -19,4 +19,4 @@ COPY . .
 #6. Exponer el puerto de Streamlit
 EXPOSE 8501
 # 7. Comando para arrancar la app
-CMD ["streamlit", "run", "app.py", "--server.port=8501", \"--server.address=0.0.0.0"]
+CMD ["streamlit", "run", "frontend/app.py", "--server.port=8501", "--server.address=0.0.0.0"]
